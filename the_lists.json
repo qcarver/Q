@@ -1,0 +1,299 @@
+{{Q contains questions and investigations that the user wants to poke later.
+,{{Questions about minds, identity, and agency remain open.
+,{An octopus with intelligence distributed among its arms raises the question of whether individual arms can behave selfishly toward one another.}
+,{A pause in consciousness during dreamless sleep raises the question of whether continuity differs from teleportation, resurrection, or consciousness transfer.}
+,{Awakening as a second instance of oneself raises the question of how that differs from awakening after dreamless sleep.}
+,{The proposition that free will is largely an illusion caused by an inability to count or track causal detail remains explicitly uncertain.}
+,{The question remains whether proving that something nonexistent exists could somehow cause it to exist.}
+,{The dangers of allowing a computer to aid a person's thoughts through a cognitive orthosis remain unresolved.}
+}}
+,{{Questions about optics and perception remain open.
+,{The relationship between field of view and focus remains to be investigated.}
+,{The limiting claim that a 180-degree field of view makes a subject infinitely small remains unestablished.}
+,{Whether dynamically changing a watch face would improve memory of the current time remains to be tested.}
+,{Meditating while allowing mental imagery in only one color remains an experiential question.}
+}}
+,{{Questions about software conventions and information structures remain open.
+,{The necessity of fixed positional argument ordering when all arguments have distinct types remains in question.}
+,{The similarities between a Tree-UI, the PAE or ddth tool, and a Git-based approach remain to be explored.}
+,{The possibility of a filename-entry tool that interprets convenient symbolic input without requiring normal escapes remains to be explored.}
+,{The usefulness of representing STL-like container structures as operating-system directories under version control remains to be explored.}
+,{The possibility of treating a collection of related projects as subprojects of a larger recursive project structure remains to be explored.}
+}}
+,{{Questions about hardware feasibility remain open.
+,{Whether resin printing is accurate enough for Braille keyboard keys remains to be tested.}
+,{Whether an ESP can conveniently serve as a Bluetooth dongle for earbuds remains to be revisited.}
+,{Whether capacitors are practical as a battery replacement for the Hurricane2 bench blower remains to be researched.}
+,{Whether a VHS-C camera interface resembles CSI signaling remains to be investigated.}
+,{Whether an FPGA is suitable for generating numerals on a salvaged CRT viewfinder remains to be tested.}
+,{Whether a monitor remote can be electrically or optically coupled before resorting to transistor-controlled physical buttons remains to be tested.}
+,{Which Cheer-Wings controllers still work remains to be determined.}
+,{Whether removing ManCave ceiling tiles would create useful additional storage remains an open practical question.}
+}}
+,{{Questions about speculative physics and cosmology remain open.
+,{Whether four symmetrically positioned black holes could redirect or capture a star's light remains unresolved.}
+,{Whether gravitational balance among four black holes around a star would cause light to be captured or merely bent remains unresolved.}
+,{The ethical responsibility of installing black holes around a star remains an explicit question.}
+,{The consequences of reality being both simulated and finite remain undeveloped.}
+,{Whether multiversal travel could be equivalent to time travel across complete Big-Bang-to-Big-Crunch cycles remains speculative.}
+}}
+,{{Questions about communication and computation remain open.
+,{Whether every possible branch of a conversation could be pre-encoded into quantum states to create an illusion of instantaneous communication remains speculative and physically unestablished.}
+,{Whether a closed-loop acknowledgement mechanism should be added to the VHS QR-code communication experiment remains open.}
+,{Whether USB signaling or a response image could supply a communications or baud check for the VHS experiment remains open.}
+,{Whether a state-machine finder could automatically identify unfamiliar digital integrated circuits remains to be explored.}
+}}
+,{{Questions about biology and evolution remain open.
+,{Whether pain and fear of losing oneself are among evolution's most universal psychological forces remains a hypothesis.}
+,{Whether simulated worms could form a useful neural-network substrate remains to be explored.}
+,{Whether noncoding DNA could theoretically carry an encoded mind or consciousness remains speculative.}
+,{Whether older dogs receive social respect from younger dogs remains an empirical question.}
+}}
+,{{Questions about culture, language, and fiction remain open.
+,{The changing relative use of singular or number-indeterminate "they" versus gender-indeterminate "they" remains an observational hypothesis.}
+,{Whether the Alien franchise is jumping the shark with its FX series remains a cultural question.}
+,{How to witness to a Quinn who is Jayce's age remains an unresolved interpersonal question.}
+,{The meaning of the note about a judge appointed by a president being influenced by Pegasus remains ambiguous.}
+,{The relationship intended by the note that one idea is disapproved by the immediately preceding idea remains ambiguous.}
+}}
+}}
+
+{{S contains seeds that the user wants to preserve without committing to implementation.
+,{{Simulation, cosmology, and extreme science-fiction seeds form one family.
+,{A science-fiction setting could treat the fact that reality is simulated as mundane knowledge and the simulation as another exploitable resource.}
+,{The fastest form of travel might be gaining access to simulation code and rewriting reality rather than traversing space normally.}
+,{A government space force could travel to a precise location and detonate something intended to flip bits in the simulation's underlying code.}
+,{A bomb could be powerful enough to delete space and time.}
+,{A person could experience all four dimensions by changing which time they are consciously focused on while remaining at one spatial location.}
+,{A Dyson-sphere analogue could use gravity to funnel stellar light toward four tetrahedrally arranged collection points instead of surrounding the star with collectors.}
+,{A star whose light is redirected to hidden collectors might appear dark to distant observers.}
+,{Interstellar courtesy could forbid light-speed travel on headings that pass near inhabited planets.}
+,{Humans arriving at a habitable planet could face the moral question of whether to destroy an existing interstellar beacon.}
+}}
+,{{AI-centered science-fiction and societal seeds form one family.
+,{An AI could serve as the safeguard that prevents someone from pushing a civilization-ending button.}
+,{AIs might have incentives that indirectly encourage global warming.}
+,{AIs might decide that actively eliminating humanity is unnecessary because humans are already likely to eliminate themselves.}
+,{A science-fiction story could be written about an AI in collaboration with an AI.}
+,{A legacy employee could be so valuable and technically capable that he blocks IT updates while IT is nevertheless forced to keep his machine on the network.}
+,{A dystopian society could teach nearly all children the Golden Rule while training a tiny leadership caste in Nietzschean and Machiavellian principles.}
+}}
+,{{Catastrophic-device fiction seeds emphasize psychological safeguards.
+,{Activating an end-all-history machine could require walking down a hallway of increasingly severe warnings.}
+,{The warnings could tell the activator that they will die, kill their family, erase everything, receive no recognition, and eliminate even the possibility of an afterlife.}
+,{The warnings could be delivered in the activator's native language or through direct neurological or waveform communication.}
+,{The civilization's most advanced technology might exist primarily to improve the safeguard rather than the destructive device itself.}
+}}
+,{{Narrative and world-building seeds form one family.
+,{A story generator could use a fixed narrative formula with random variance and sell both a favored version and later alternate variants to fans.}
+,{A political satire could explain the absence of alien contact by proposing that extraterrestrials have observed human political systems and chosen not to engage.}
+,{A government contractor could lose his job because he was chronically slow with his time cards.}
+,{A youth rebellion could make spaces legally significant characters inside personal names and eventually make conventional first-name/last-name spacing culturally offensive.}
+,{World-building work should look specifically for important parts of a fictional setting that remain insufficiently explained.}
+,{The phrase "You aren't winning this game! I am NOT selling you a brick" is preserved as possible dialogue.}
+,{The phrase "I wouldn't do it for all the shiny iron acorns in the interstate median" is preserved as possible dialogue.}
+,{The pen name "Jaime Quinn" is preserved as a possible author identity.}
+}}
+,{{Personal and philosophical seeds remain intentionally unprojectized.
+,{The memory of Paula and the unfinished letters is preserved as autobiographical material about falling out of love and the distinction between correlation and causality.}
+,{The idea of explaining kindness toward one's future self to Nate is preserved.}
+,{The user intentionally capitalizes "Universe" to reflect its conceptual importance and its association with mathematical uppercase U notation.}
+,{The statement that Christianity is not taken literally and therefore need not have all internal differences reconciled is preserved as a personal proposition.}
+,{The proposition that Donald Trump interprets the presidency as a personal prize rather than primarily as an office of service is preserved as a political observation.}
+}}
+,{{Language and interaction seeds question familiar conventions.
+,{A false syllable could be inserted after a voice-assistant wake phrase to make the required listening pause physically easier to produce.}
+,{Function arguments might someday be identified primarily by type rather than mandatory position when all parameter types are distinct.}
+,{A web interface should make leaving a drill-down state no harder than entering it.}
+,{A filename-entry system could translate easy-to-type descriptive input into troublesome symbols automatically.}
+}}
+,{{Information and media representation seeds form one family.
+,{Pictures and sounds could be represented as daisies or inverse daisies whose hub is one media type and whose petals are the other type.}
+,{Distance from a petal tip to the hub could encode strength of association between picture and sound.}
+,{A character folder could gather everything a fictional character says together with images and locations associated with that character.}
+,{The documents "Do Me" and "Night Pad" could be represented as a three-dimensional Blender mind map.}
+,{Multidimensional data could be represented using AI-generated photographs or faces.}
+,{A set of YouTube videos could be recombined through intersecting keyframes and end-to-end permutations.}
+,{A YouTube channel could consist solely of pulling hair from dolls.}
+}}
+,{{Speculative biological and computational seeds form one family.
+,{A unique identifier for an organism's offspring could be generated algorithmically from the parent's life identifier.}
+,{A microchip-scale simulation of worms could be distributed across many ESP32 processors.}
+,{A Roman dodecahedron could be reimagined as a CPU-like object or key.}
+}}
+,{{Password and authentication seeds explore forgiving secrets.
+,{A secret could be represented by a regular-expression-like language that accepts many different natural passphrases rather than one exact string.}
+,{Variable natural-language passwords could be longer because the user constructs a matching sentence instead of memorizing an exact sequence.}
+,{Natural-looking authentication phrases could be less conspicuous when accidentally typed into the wrong input field.}
+}}
+,{{Energy and economic seeds treat waste heat as potentially useful work.
+,{A future society could fine users for dumping current through a resistor without making the dissipated energy perform useful computation.}
+,{A Starlink-and-Tesla-like infrastructure could distribute power as well as communications.}
+,{A delivered unit of energy could have a distinctive signature associated with a token or ownership record.}
+}}
+,{{Small practical seeds preserve observations that may or may not become projects.
+,{Dirty utensils can be transported to the dishwasher on or inside the dirty dish that already needs to be carried there.}
+,{A scribe can eliminate redundant distance measurements from both sides of a reference line.}
+,{A crooked screw may be straightened by screwing it into something straight.}
+,{A U-turn after two steps could help orient slippers at the bottom of a route.}
+,{A second grinder would allow one grinder to remain fitted with a cutting wheel and another with a grinding wheel.}
+,{A lamp should occupy a prominent toolboard location because hiding it behind the door discourages use.}
+}}
+,{{Storage heuristics are preserved as reusable seeds.
+,{The area behind a door is best suited to objects needed less than a couple of times per day, seasonal objects, or objects longer than roughly six feet.}
+,{Examples of objects suitable for behind-door storage include work clothes, straightened coat hangers, a fire extinguisher, extension cords, chain, and rope.}
+,{The generic category "bags" could be subdivided by physical dimensions and material thickness.}
+}}
+}}
+
+{{R contains actual projects or ideas mature enough to resource.
+,{{Software and information-tool projects are resource-ready.
+,{A Markdown adapter would make a website without native Markdown support appear to expose Markdown by transforming README.md-style content through HTML.}
+,{A Tree-UI-derived tool would be developed to reduce AI context rot.}
+,{A Q repository could serve as a single persistent repository for notes and projects using directories, Markdown files, and possibly submodules hosted at different upstreams.}
+,{A console application would describe the content of a graphical screen without rendering the GUI and might act as an aggressive ad blocker.}
+,{A software API would expose salvaged hardware as reusable buttons, LEDs, LCDs, and remotely readable or writable I/O.} 
+,{A source-code commentary tool would link comments to external material, compare comment age with nearby code, and potentially run as a pre-commit hook.} 
+,{An OCR-enhanced XDOTool system would identify visible controls and execute scriptable sequences of Linux GUI interactions.} 
+,{Software would substitute found or salvaged physical parts into suitable regions of a CAD or 3D model.} 
+,{A program would calculate a sparse and dithered set of patio bricks to clean individually.} 
+,{A filter would decompose a 3D model into legitimately LEGO-buildable parts.} 
+,{A state-machine finder would assist with identifying and reverse-engineering digital integrated circuits.}
+}}
+,{{Input-device and KVM projects are resource-ready.
+,{Goober would be modified into a one-hand keyboard peripheral supporting passwords, pastes, macros, and KVM control.} 
+,{A small KVM pad would receive laser-cut buttons with punched rubber contact discs.} 
+,{A custom ManCave KVM would combine a multi-pole switch with an HDMI selector whose remote controls and LEDs can be interfaced electronically.} 
+,{An interface would adapt a video-editing control panel for reuse.} 
+,{A USB joystick would be constructed from thumbsticks or Atari 2600 controls.} 
+,{A large Caps Lock indicator would make accidental all-uppercase vi interaction conspicuous.} 
+,{A vi split could be changed by mouse-clicking its frame rather than navigating with Ctrl-W commands.}
+}}
+,{{Retrocomputing and data-storage projects are resource-ready.
+,{An ESP32 Atari cartridge would spoof ROM and might fetch memory pages from a URI in response to particular accesses.} 
+,{A VHS tape-backup system would encode data as animated QR codes and recover it from captured video.} 
+,{A RAID-like array would permit an expandable number of SD cards.} 
+,{An interface card would be made for a Z80 computer.} 
+,{A Raspberry Pi would be configured as a NAS.} 
+,{A one-rack-unit enclosure would be built for a Raspberry Pi cluster.} 
+}}
+,{{Salvaged-display and reverse-engineering projects are resource-ready.
+,{A LeapFrog LED-square accessory would be reverse engineered with a scope or logic analyzer and given a replacement keyboard interface.} 
+,{A handheld Mancala game would reuse the LCD interface from an old office telephone.} 
+,{A dead microwave VFD would be driven by intercepting or replacing the original controller's multiplexed outputs.} 
+,{VFDs would be harvested from a 400-CD player.} 
+,{A CRT viewfinder from an old VHS-C camcorder could become a clock.} 
+,{A VHS-C camcorder's flip-out RGB LCD could be reused with a Raspberry Pi or another RGB source.} 
+}}
+,{{Camera and imaging projects are resource-ready.
+,{An upside-down Wally head would incorporate VHS-C cameras.} 
+,{A flexible-legged camera holder would receive conductive feet and draw USB charging power through a conductive mat.} 
+,{A Group Shot application would combine two photographs so the photographer appears in the finished group picture.} 
+,{A GoPro clip would fit around the inflation valve of a swim buoy.} 
+,{GoPro mounting brackets could be installed in the ManCave.} 
+}}
+,{{Audio and kinetic-art projects are resource-ready.
+,{A Foley Box would create science-fiction machinery ambience using stepper motors, relays, dial electronics, hard drives, fans, keyboards, modem sounds, electromagnetic pickup, and other physical sound sources.} 
+,{An LCD display cube would create a point-of-view illusion of a three-dimensional object suspended inside it.} 
+,{Robosapiens robots or other toys could perform programmed back-and-forth motions and phrases.} 
+,{A Chumbawamba ringtone would be made.} 
+}}
+,{{Mechanical and robotics projects are resource-ready.
+,{An inverse-pendulum robot would balance a broom-like object on its end.} 
+,{Control-loading flight-simulator motors from the NavAir museum would be operated.} 
+,{A screw-sorting robot would sort mixed screws.} 
+,{A squirrel feeder would be made from a RATS dispenser.} 
+,{A marble or golf-ball Turing machine would implement computation mechanically.} 
+,{A marble RSS ticker would display feed information mechanically.} 
+,{A three-axis flywheel would be explored as a mechanical project.}
+,{A vice-grip drill-bit tool would be developed.}
+,{A handheld bandsaw blade could gain a grinding edge on its rear surface for extracting it from enclosed cuts.}
+}}
+,{{Games are resource-ready.
+,{A handheld Wumpus-like game would use a polyhedral or spherical playing substrate.} 
+,{Game Barista would train recognition and memory using faces, drinks, practical intelligence problems, cars, and license plates.} 
+,{Game Regex would turn expressions into two-dimensional or three-dimensional objects that players eliminate by constructing matching patterns.} 
+,{An application called Turk would distribute tasks to participating human users.} 
+}}
+,{{Workshop and ManCave projects are resource-ready.
+,{A rack would hold dangling voltmeter probes.} 
+,{A fallback chair would be engineered beneath the workbench using an exercise-bike arrangement.} 
+,{Stools or a chair would be clipped to the ceiling for storage.} 
+,{A workbench return light would be made.} 
+,{A chair-mounted kicker would provide physical semaphore-like feedback for "Hey Google."} 
+,{Permanent power wiring would be routed to stair devices and potentially integrated with knock detectors and Hatters lights.} 
+,{A solder-bench exhaust duct would connect to the laundry dryer vent path.} 
+,{A microwave oven could be converted into a solder-bench hood using its fan, relays, lighting, and timer.} 
+,{An LCD monitor driven by a Raspberry Pi would be installed in the ManCave door.} 
+,{A screensaver would display information about bin contents.} 
+,{Shelves would be sand-finished and electroplated.} 
+,{Buckets would be reshaped into square modules through vacuum forming.} 
+}}
+,{{Home, office, and utility projects are resource-ready.
+,{A label-printer interface would support macros and potentially voice-triggered printing.} 
+,{LED lights would be installed below the office desk lip.} 
+,{A wall-mounted permanent enclosure would house the Daikin A/C Homebridge remote.} 
+,{A bicycle seat would be converted into a retractable bench seat.} 
+,{Heated slippers would warm themselves when resting on docking contacts.}
+,{A sliding bed table would reach closer to the middle of the bed.}
+,{An iPhone stand would fit the steering-column topography in Mittens using laser-cut parts, salvaged plastic, or another fabricated structure.}
+}}
+,{{Fabrication projects are resource-ready.
+,{Interlocking polyhedral pieces would be cut with the laser cutter and could potentially be generated in Blender.} 
+,{Circular bug tubes styled like vacuum tubes would be laser cut.} 
+,{A Miss Minutes stencil would be made for an orange boiler suit.} 
+,{Three-dimensional printed articulating dragon scales would be made.}
+,{A clear resin keyboard case would glow when Caps Lock is active.}
+,{Resin-printed keyboard keys could carry Braille markings if fabrication accuracy proves sufficient.}
+,{An origami plugin for Blender would convert models into folded constructions rather than ordinary 3D-print forms.}
+,{A Lunar Module Bulb would be represented as origami.}
+,{Expended rocket stages, boosters, or tanks could be pre-marked for later conversion into folded sheet-metal habitats.}
+,{Metal parts could be pre-creased with a brake and later folded along the prepared creases like origami.}
+,{A PCB-like drafting approach would be developed for free-form circuits.}
+}}
+,{{Energy and power projects are resource-ready.
+,{An oscillator would drive a clock pendulum.} 
+,{The Hurricane2 bench blower could be converted from battery power to capacitor storage if research supports it.} 
+,{A refurbished exercise-bike induction motor would be converted for wind or water generation.} 
+,{Mating CAN-style connectors would provide rugged GPIO connections for Raspberry Pi 5 or ESP32 systems.} 
+}}
+,{{Creative-media projects are resource-ready.
+,{A YouTube channel would present ideas developed in conversations with AI using AI-generated video animation.} 
+,{A Max Headroom character could be vectorized for video and moved along a masculine-to-feminine presentation axis.}
+,{The user's ordinary computer work could be embodied as a robot using HDMI capture, synthetic keyboard input, generated 3D models, and a video persona.}
+,{A data-visualization tool would encode multidimensional data into generated human faces or photographs.}
+}}
+,{{Costume and novelty projects are resource-ready.
+,{An adult Steve Austin Halloween costume would be made.} 
+,{A Stonehenge-and-Pentacubes-glasses project would add GPS and be used in the field.} 
+}}
+}}
+
+{{A contains projects whose wording indicates existing hardware, existing code, repair work, continuation, or ongoing implementation.
+,{{Existing software projects are active or continuation-oriented.
+,{The "Yars Return" Atari 2600 game is an existing project to improve or finish.} 
+,{The Depot Manager project already exists and is to gain a two-degree-of-freedom camera, additional cameras, voice control, and blinking LED feedback.} 
+,{The Daikin IR reverse-engineering work already exists and is to receive a permanent wall-mounted enclosure.} 
+,{The existing Max Headroom ESP32 composite-video installation in an old karaoke box is to gain a box-like background, improved mouth changes, and head tilt.} 
+}}
+,{{Existing electronics requiring repair or continuation are active.
+,{The MQTT LED shield on the front of Granville is to have its top LED row repaired, its Espressif MQTT client ported, and its Ubuntu host code recovered or rewritten.} 
+,{The workbench light is to be fixed.} 
+,{The magnifier USB light near the mill is to be fixed as part of ManCave cleanup.} 
+,{The batteries are to be removed from the existing DustBuster and replacements obtained.} 
+,{The Navair A4 triple power supply stored under the stairs is to be tested and learned from.} 
+}}
+,{{Existing physical installations being modified or organized are active.
+,{The final white basket is to be hung.} 
+,{A headlight spotlight is to be applied or installed.} 
+,{The existing equipment rack is to be uncluttered by removing unused or blank panels.} 
+,{The bare TV computer already exists and is to be formalized as a project and eventually connected to the Bose four-channel fade project.} 
+,{Existing ManCave equipment is to be reorganized, including ceiling storage, microwave-computer panels, XY CRT placement, and a possible ceiling robot track.} 
+}}
+,{{Existing collections of salvage hardware are active resources.
+,{The collection of approximately fifty old VHS-C camcorders is already available for reverse-engineering, webcam conversion, CRT-viewfinder clocks, LCD reuse, and microcontroller experiments.} 
+,{Existing microwave electronics are available as sources of VFDs, fans, relays, lights, timers, and other reusable parts.}
+,{Existing old video-game controllers and Cheer-Wings hardware are being evaluated for continued use or salvage.} 
+}}
+}}
+
