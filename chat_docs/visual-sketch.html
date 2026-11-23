@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Überproject-Q — Original Visual Sketch</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      font-family: ui-rounded, "Avenir Next", Avenir, system-ui, sans-serif;
+      --ink: #17211c;
+      --paper: rgba(250, 249, 240, 0.9);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      min-height: 100vh;
+      margin: 0;
+      color: var(--ink);
+      background-color: #263c33;
+      background-image:
+        linear-gradient(rgba(18, 32, 26, 0.52), rgba(18, 32, 26, 0.52)),
+        repeating-linear-gradient(135deg, #416c58 0 18px, #365848 18px 36px);
+      background-size: auto, 72px 72px;
+    }
+
+    main {
+      width: min(920px, calc(100% - 2rem));
+      margin: 0 auto;
+      padding: 3rem 0 5rem;
+    }
+
+    header {
+      margin-bottom: 1.4rem;
+      padding: 1.8rem 2rem;
+      border: 2px solid rgba(255, 255, 255, 0.65);
+      border-radius: 28px;
+      background: var(--paper);
+      box-shadow: 0 18px 50px rgba(0, 0, 0, 0.3);
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2.2rem, 8vw, 4.8rem);
+      line-height: 0.95;
+      letter-spacing: -0.055em;
+    }
+
+    .tagline {
+      margin: 0.75rem 0;
+      color: #4d6258;
+      font-size: clamp(1rem, 3vw, 1.35rem);
+    }
+
+    .q-commit {
+      margin: 0;
+      color: #66746d;
+      font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+      font-size: 0.78rem;
+    }
+
+    .projects {
+      display: grid;
+      gap: 0.85rem;
+    }
+
+    .next-steps {
+      margin: 0 0 1.4rem;
+      padding: 1rem 1.25rem;
+      border: 2px dashed rgba(255, 255, 255, 0.72);
+      border-radius: 20px;
+      color: #f8fff9;
+      background: rgba(16, 28, 22, 0.78);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.22);
+    }
+
+    .next-steps h2 {
+      margin: 0 0 0.35rem;
+      font-size: 1rem;
+    }
+
+    .next-steps p {
+      margin: 0;
+      line-height: 1.45;
+    }
+
+    .project {
+      display: grid;
+      grid-template-columns: 48px 1fr;
+      gap: 0.85rem;
+      align-items: center;
+    }
+
+    .age {
+      width: 42px;
+      aspect-ratio: 1;
+      border: 2px solid #0d1712;
+      border-radius: 50%;
+      background: conic-gradient(from 0deg, #111 0 18%, #55c878 18% 100%);
+      box-shadow: 0 3px 9px rgba(0, 0, 0, 0.35);
+      transform: scaleX(-1);
+    }
+
+    .age.medium { background: conic-gradient(from 0deg, #111 0 52%, #55c878 52% 100%); }
+    .age.old { background: conic-gradient(from 0deg, #111 0 88%, #55c878 88% 100%); }
+
+    .card {
+      display: block;
+      padding: 1rem 1.2rem;
+      border: 3px solid;
+      border-radius: 22px;
+      color: var(--ink);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.22);
+      text-decoration: none;
+      transition: transform 130ms ease, box-shadow 130ms ease;
+    }
+
+    .card:hover,
+    .card:focus-visible {
+      outline: none;
+      transform: translateY(-2px);
+      box-shadow: 0 12px 26px rgba(0, 0, 0, 0.3);
+    }
+
+    .public { border-color: #275b3b; background: #a8e2c2; }
+    .fork { border-color: #35291b; background: #ddd49a; }
+    .untracked { border-color: #be2424; background: #e4d23e; }
+
+    .name {
+      display: block;
+      margin-bottom: 0.28rem;
+      font-size: 1.18rem;
+      font-weight: 800;
+    }
+
+    .summary { display: block; line-height: 1.35; }
+
+    .commit {
+      display: block;
+      margin-top: 0.55rem;
+      opacity: 0.68;
+      font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+      font-size: 0.74rem;
+    }
+
+    .note {
+      margin: 1.3rem 0 0 63px;
+      color: rgba(255, 255, 255, 0.86);
+      font-size: 0.8rem;
+    }
+
+    @media (max-width: 560px) {
+      main { width: min(100% - 1rem, 920px); padding-top: 0.5rem; }
+      header { border-radius: 0 0 24px 24px; }
+      .project { grid-template-columns: 36px 1fr; gap: 0.5rem; }
+      .age { width: 32px; }
+      .note { margin-left: 42px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Überproject-Q</h1>
+      <p class="tagline">A Web-Project Launchpad and Multiplexer</p>
+      <p class="q-commit">Sketch artifact · generated header will show Q's latest commit and seven-character hash</p>
+    </header>
+
+    <aside class="next-steps" aria-labelledby="next-steps-title">
+      <h2 id="next-steps-title">Quinn's next steps</h2>
+      <p>Review this sketch, choose the first real public project sites to enroll, and decide when Q may gain a private remote. Then ask the next agent to build the local discovery-and-generation prototype described in <code>chat_docs/PDR.md</code>.</p>
+    </aside>
+
+    <section class="projects" aria-label="Example project websites">
+      <article class="project">
+        <span class="age" role="img" aria-label="Recently updated"></span>
+        <a class="card public" href="#example-public">
+          <span class="name">Example Public Project</span>
+          <span class="summary">A fictional static site demonstrating the mint public-project treatment and rounded launch control.</span>
+          <span class="commit">today · 12ab34c · Polish the example landing page</span>
+        </a>
+      </article>
+
+      <article class="project">
+        <span class="age medium" role="img" aria-label="Moderately recent"></span>
+        <a class="card fork" href="#example-fork">
+          <span class="name">Example Upstream Fork</span>
+          <span class="summary">A fictional fork demonstrating the pale-khaki and darkest-brown presentation category.</span>
+          <span class="commit">5 years ago · 56de78f · Retain compatibility changes</span>
+        </a>
+      </article>
+
+      <article class="project">
+        <span class="age old" role="img" aria-label="Old or filesystem-dated"></span>
+        <a class="card untracked" href="#example-directory">
+          <span class="name">Example Untracked Web Directory</span>
+          <span class="summary">A fictional directory with a root index page but no Git repository or known upstream.</span>
+          <span class="commit">filesystem date only · no commit invented</span>
+        </a>
+      </article>
+    </section>
+
+    <p class="note">Disposable visual handwaving only. The generator, privacy filter, precise SVG age glyph, and random approved image backgrounds remain to be implemented.</p>
+  </main>
+</body>
+</html>

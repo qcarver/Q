@@ -1,0 +1,7 @@
+title = "Überproject-Q"
+tagline = "A Web-Project Launchpad and Multiplexer"
+commit_message_limit = 80
+project_summary_words = 40
+stale_years = 14
+fresh_hours = 4
+minimum_green = 0.14

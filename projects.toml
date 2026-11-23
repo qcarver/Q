@@ -1,0 +1,29 @@
+[projects.Thesis]
+name = "Thesis"
+source = "../Thesis"
+route = "Thesis"
+summary = "A context-free method of visualizing streaming object data to help identify predictor data for known events."
+include_publicly = true
+
+[projects.Wumpus]
+name = "Hunt the Wumpus"
+source = "../wumpus"
+web_root = "as_html"
+route = "Wumpus"
+summary = "A browser edition of the classic cave-hunting game, with configurable caves, hazards, gold, arrows, and automated agents."
+include_publicly = true
+
+[projects.NatesClock]
+name = "Nate's Clock"
+source = "../NatesClock"
+route = "NatesClock"
+summary = "A handmade Arduino bedside clock that displays time, scrolls secret messages, and plays songs through a speaker."
+include_publicly = true
+
+[projects.depotMgr]
+name = "Depot Manager"
+source = "../depotMgr"
+route = "depotMgr"
+summary = "Uses ArUco fiducials to identify depot-bin locations and highlight a requested bin in a photograph of storage shelves."
+include_publicly = false
+category = "public"
