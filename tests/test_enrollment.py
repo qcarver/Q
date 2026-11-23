@@ -12,16 +12,16 @@ from generator.render import _age_fraction
 ROOT = Path(__file__).parents[1]
 
 
-def test_selected_projects_are_enrolled_and_newest_first():
-    projects = discover(ROOT / "projects.toml")
+def test_public_projects_are_enrolled_and_newest_first():
+    projects = discover(ROOT / "projects.toml", public=True)
     assert {project.id for project in projects} == {
-        "Thesis", "Wumpus", "NatesClock", "depotMgr",
+        "Thesis", "Wumpus", "NatesClock",
     }
     assert projects == sorted(projects, key=lambda project: project.committed_at, reverse=True)
 
 
 def test_routes_are_distinct_and_safe():
-    projects = discover(ROOT / "projects.toml")
+    projects = discover(ROOT / "projects.toml", public=True)
     routes = [project.route for project in projects]
     assert len(routes) == len(set(routes))
     assert all(".." not in Path(route).parts for route in routes)
