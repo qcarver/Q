@@ -15,6 +15,7 @@ IGNORED_NAMES = {
 
 def _write_wrapper(project: Project, output: Path) -> None:
     title = html.escape(project.name)
+    version = project.commit[:12] if project.commit else str(int(project.committed_at.timestamp()))
     output.joinpath("index.html").write_text(f'''<!doctype html>
 <html lang="en">
 <head>
@@ -45,7 +46,7 @@ def _write_wrapper(project: Project, output: Path) -> None:
   <nav class="q-bar" aria-label="Überproject-Q navigation">
     <a class="q-back" href="../index.html" target="_top" aria-label="Back to Überproject-Q" title="Back to Überproject-Q">Q</a>
   </nav>
-  <iframe src="site/index.html" title="{title}"></iframe>
+  <iframe src="site/index.html?v={version}" title="{title}"></iframe>
 </body>
 </html>
 ''', encoding="utf-8")

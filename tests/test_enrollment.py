@@ -52,7 +52,7 @@ route = "live"
     wrapper = (route / "index.html").read_text(encoding="utf-8")
     assert 'href="../index.html"' in wrapper
     assert 'aria-label="Back to Überproject-Q"' in wrapper
-    assert 'src="site/index.html"' in wrapper
+    assert 'src="site/index.html?v=' in wrapper
     assert (site_link / "index.html").read_text(encoding="utf-8") == "first"
 
     (site / "index.html").write_text("second", encoding="utf-8")
