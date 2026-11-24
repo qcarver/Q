@@ -1,0 +1,6 @@
+[Unit]
+Description=Build and deploy Überproject-Q to Granville Apache
+
+[Service]
+Type=oneshot
+ExecStart=/home/qcarver/Dev/Q/scripts/deploy_granville.sh

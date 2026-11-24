@@ -20,3 +20,4 @@ class Project:
     message: str | None
     upstream: str | None
     date_is_filesystem: bool = False
+    include_files: tuple[str, ...] | None = None

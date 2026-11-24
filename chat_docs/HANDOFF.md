@@ -50,3 +50,9 @@ When Q needs interactive Firefox testing, launch a genuinely separate instance w
 ## Local route freshness
 
 Each generated `build/local/<route>/index.html` is a lightweight Q-owned frame with a persistent back-to-Q arrow. Its `site/` entry is a live directory link to the enrolled project's configured web root. Local development therefore reflects the current working tree immediately, including changes newer than Git HEAD, without regenerating Q or modifying the project page. The public build deliberately copies each site beneath the same wrapper into an isolated snapshot and must be rebuilt and inspected before publication.
+
+## Granville deployment
+
+`python -m generator --target lan` creates a materialized `build/lan/` artifact containing every locally enrolled project. A project may declare `include_files` to restrict LAN copying to an explicit safe allowlist; Depot Manager uses this boundary so its inventory, local configuration, and repository sources do not enter Apache's document root. Deploy the completed artifact to `/var/www/html/`, never the live repository trees or the symlink-based development build.
+
+Granville uses `scripts/deploy_granville.sh` to validate and synchronize the LAN artifact into Apache's document root. The tracked `deploy/granville/uberproject-q-granville.{service,timer}` user units refresh it every five minutes while qcarver's user manager is running. Enabling user lingering is an optional privileged follow-up if refreshes must continue with no qcarver login session; Apache continues serving the most recent artifact regardless.

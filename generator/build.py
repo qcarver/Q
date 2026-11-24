@@ -11,8 +11,8 @@ from .render import render, write_index
 
 
 def build(root: Path, target: str = "local") -> Path:
-    if target not in {"local", "public"}:
-        raise ValueError("target must be 'local' or 'public'")
+    if target not in {"local", "lan", "public"}:
+        raise ValueError("target must be 'local', 'lan', or 'public'")
     output = root / "build" / target
     if output.exists():
         shutil.rmtree(output)

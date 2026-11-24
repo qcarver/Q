@@ -61,6 +61,27 @@ def copy_sites(projects: list[Project], destination: Path, *, live_links: bool =
         site = output / "site"
         if live_links:
             site.symlink_to(project.web_root, target_is_directory=True)
+        elif project.include_files:
+            for item in project.include_files:
+                relative = Path(item)
+                if relative.is_absolute() or ".." in relative.parts:
+                    raise ValueError(f"{project.id}: unsafe included path {item!r}")
+                source = (project.web_root / relative).resolve()
+                if not source.is_relative_to(project.web_root):
+                    raise ValueError(f"{project.id}: included path escapes the web root")
+                target = site / relative
+                if source.is_dir():
+                    shutil.copytree(
+                        source,
+                        target,
+                        dirs_exist_ok=True,
+                        ignore=shutil.ignore_patterns(*IGNORED_NAMES, "*.pyc"),
+                    )
+                elif source.is_file():
+                    target.parent.mkdir(parents=True, exist_ok=True)
+                    shutil.copy2(source, target)
+                else:
+                    raise ValueError(f"{project.id}: included path does not exist: {item}")
         else:
             shutil.copytree(
                 project.web_root,

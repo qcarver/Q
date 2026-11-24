@@ -44,5 +44,6 @@ def discover(config_path: Path, *, public: bool = False) -> list[Project]:
             message=git.get("message"),
             upstream=git.get("upstream"),
             date_is_filesystem=filesystem_date,
+            include_files=tuple(item["include_files"]) if "include_files" in item else None,
         ))
     return sorted(projects, key=lambda project: project.committed_at, reverse=True)

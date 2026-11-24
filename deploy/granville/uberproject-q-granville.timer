@@ -1,0 +1,11 @@
+[Unit]
+Description=Refresh Überproject-Q on Granville
+
+[Timer]
+OnBootSec=2min
+OnUnitActiveSec=5min
+Persistent=true
+Unit=uberproject-q-granville.service
+
+[Install]
+WantedBy=timers.target

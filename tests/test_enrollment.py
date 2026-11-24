@@ -72,3 +72,25 @@ def test_age_wheel_uses_four_hour_grace_fourteen_year_scale_and_floor(tmp_path: 
     four_years = _age_fraction(project_at(timedelta(days=4 * 365.2425)), 14, .14, 4)
     assert four_years == pytest.approx(1 - 4 / 14, abs=.001)
     assert _age_fraction(project_at(timedelta(days=20 * 365.2425)), 14, .14, 4) == .14
+
+
+def test_lan_build_honors_project_file_allowlist(tmp_path: Path):
+    root = tmp_path / "q"
+    root.mkdir()
+    site = tmp_path / "site"
+    site.mkdir()
+    (site / "index.html").write_text("page", encoding="utf-8")
+    (site / "demo.png").write_bytes(b"image")
+    (site / "local-secret.txt").write_text("not for the LAN", encoding="utf-8")
+    (root / "q.toml").write_text('title = "Q"\n', encoding="utf-8")
+    (root / "projects.toml").write_text(f'''
+[projects.safe]
+source = "{site}"
+route = "safe"
+include_files = ["index.html", "demo.png"]
+''', encoding="utf-8")
+
+    output = build(root, "lan")
+    assert (output / "safe/site/index.html").is_file()
+    assert (output / "safe/site/demo.png").is_file()
+    assert not (output / "safe/site/local-secret.txt").exists()

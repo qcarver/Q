@@ -27,3 +27,4 @@ route = "depotMgr"
 summary = "Uses ArUco fiducials to identify depot-bin locations and highlight a requested bin in a photograph of storage shelves."
 include_publicly = false
 category = "public"
+include_files = ["index.html", "depotMgr_demo_screenshot.png"]
